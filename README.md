@@ -1,6 +1,6 @@
 # Violet - Wordpress Theme
 Violet is full responsive wordpress theme with a focus on postfolio sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, Portfolio Showcase, and more. Showcase your portfolio. Works great in many languages, for any abilities, and on any device.
-![Violet Screenshoot](http://crazylab.design/wp-content/themes/violet/screenshot.png)
+[![CrazyLab](http://crazylab.design/wp-content/themes/violet/images/logo.png)](http://crazylab.design)
 
 # Supports
 * Mobile-first, Responsive Layout
