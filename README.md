@@ -19,3 +19,11 @@ Violet is full responsive wordpress theme with a focus on postfolio sites, it fe
 4. Install 'Violet Post Type' plugin
 5. Navigate to Appearance > Customize and taste as you like.
 6. Before enable Portfolio section, go Navigate to Appearance > Customize > Section Settings > Portfolio Section and provide your category data
+
+# live: 
+http://crazylab.design/
+
+#live login
+http://demo.crazylab.design/wp-admin
+Username: user
+Password: user
