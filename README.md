@@ -23,7 +23,7 @@ Violet is full responsive wordpress theme with a focus on postfolio sites, it fe
 # live: 
 http://crazylab.design/
 
-#live login
+# live login
 http://demo.crazylab.design/wp-admin
 Username: user
 Password: user
