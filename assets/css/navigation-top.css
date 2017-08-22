@@ -1,0 +1,176 @@
+.navbar-toggle {
+  background-color: transparent;
+}
+.navbar-toggle .icon-bar {
+  margin-top: 4px;
+  background: white;
+}
+
+.navbar {
+  /*height: auto;*/
+  border: none;
+  margin-bottom: 0;
+  padding: 30px 0;
+}
+.navbar .navbar-brand {
+  font-family: "Roboto";
+  color: white;
+  line-height: 31.12px;
+  text-transform: uppercase;
+}
+.navbar .navbar-brand img {
+  float: left;
+  margin-right: 8px;
+  transform: translate(0%, -24%);
+}
+.navbar .navbar-brand h3 {
+  float: left;
+  margin-top: 0;
+}
+.navbar .nav li a {
+  color: white;
+}
+.navbar .nav a {
+  font-family: "Roboto";
+  line-height: 2.075;
+  text-transform: uppercase;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+  color: #c1a8a8;
+  background-color: transparent;
+}
+.collapse.in{
+	background: rgba(0,0,0,0.3);
+}
+
+.navbar-toggle {
+	margin:7px 10px 0;
+	width: 35px;
+	height: 40px;
+	border: 2px solid #fff;
+	padding: 5px 0;
+	cursor: pointer;
+}
+.navbar-toggle span {
+	width:24px;
+	height: 2px;
+	background-color: #000;
+	display: block;
+	margin: 5px auto;
+	border-radius: 40px;
+}
+.navbar-toggle.active span {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 15px;
+	background-color: #000;
+}
+.navbar-toggle.active span:first-child {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.navbar-toggle.active span:last-child {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+ .navbar-toggle.active span:nth-child(2) {
+ display: none;
+}
+
+.top-nav-collapse > .container .navbar-brand, .top-nav-collapse > .container-fluid .navbar-brand {
+	  margin: 18px 0px 0;
+}
+
+ @media (max-width: 991px) {
+	 .navbar-toggle .icon-bar:last-child {
+	margin-bottom:0;
+	}
+	 .overlay-header-logo {
+	 display:none;
+	}
+	.top-nav-collapse .normal-header-logo {
+	 display:block;
+	}
+	 .normal-header-logo {
+	 display:block;
+	}
+	.navbar-brand > img {
+	width:80%;
+	}
+	 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+	margin:10px;
+	}
+
+	.navbar-nav > li:first-child a{ border-top:1px solid;}
+	.navbar-nav > li:last-child a{ border:none;}
+	.navbar-nav > li > a, .navbar-custom .navbar-nav > li > a {
+		line-height:35px;
+		padding-left:5px;
+	}
+	 .navbar-nav > li > a {
+	padding:10px 0;
+	}
+	 #navigation-menu {
+	position:relative;
+	overflow:hidden;
+	z-index:100;
+	margin:0;
+	}
+	 .navbar-collapse {
+	margin: 0;
+	padding: 0;
+	}
+	 .nav > li {
+	border:none!important;
+	}
+	 .navbar-header {
+	float: none;
+	}
+	 .navbar-toggle {
+	display: block;
+	}
+	 .navbar-collapse.collapse {
+	display: none!important;
+	}
+	 .navbar-nav {
+	float: none!important;
+	margin: 0;
+	}
+	 .navbar-nav > li {
+	float: none;
+	border:none;
+	}
+	 .navbar-collapse.collapse.in {
+	display: block!important;
+	}
+	 .collapsing {
+	overflow: hidden!important;
+	}
+	 .navbar {
+	padding:0;
+	}
+	 .navbar li {
+	padding:0;
+	}
+	.navbar-nav > li > a, .navbar-custom .navbar-nav > li > a {
+	line-height:25px;
+	}
+	.navbar-right {
+	float:none!important;
+	}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 991px;) {
+.navbar-nav > li {
+    padding-left:15px;
+    padding-right:15px;
+	}
+}

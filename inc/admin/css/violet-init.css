@@ -1,0 +1,34 @@
+div.port_img_preview {
+    position: relative;
+    width: 200px;
+    margin-top:10px;
+}
+
+div.port_img_preview:after {
+    content: 'X';
+    font-size: 24px;
+    background: #0073aa;
+    color: #fff;
+    -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 2px #0073aa;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 2px #0073aa;
+    margin: 1px;
+    padding: 0 7px;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    cursor: pointer;
+    display: none;
+}
+div.port_img_preview:hover:after{
+    display: block;
+}
+.none {
+    display: none;
+}
+input#portfolio_cat{
+    display: none;
+}
+
+textarea#portfolio_cat {
+    height: 80px;
+}
